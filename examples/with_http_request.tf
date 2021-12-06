@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     totp = {
-      version = "0.1.0"
-      source  = "local/kffl/totp"
+      version = "0.1.1"
+      source  = "kffl/totp"
     }
     http = {
       version = "2.1.0"
