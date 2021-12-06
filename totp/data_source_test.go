@@ -15,7 +15,8 @@ data "totp" "totp_test" {
 }
 
 output "passcode" {
-  value = data.totp.totp_test.passcode
+  value     = data.totp.totp_test.passcode
+  sensitive = true
 }
 `
 
@@ -60,7 +61,8 @@ data "totp" "totp_test" {
 }
 
 output "passcode" {
-  value = data.totp.totp_test.passcode
+  value     = data.totp.totp_test.passcode
+  sensitive = true
 }
 `
 
