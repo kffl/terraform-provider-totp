@@ -10,4 +10,4 @@ description: |-
 
 The TOTP provider is a utility provider, which allows for generating Time-Based One-Time Passwords (TOTP) following the RFC 6238 standard implemented by mobile apps such as Google Authenticator, Microsoft Authenticator or FreeOTP.
 
-This provider does not require any configuration. See the navigation bar for information regarding the usage of `http` data source that it provides.
+This provider does not require any configuration. See the navigation bar for information regarding the usage of `totp` data source that it provides.
