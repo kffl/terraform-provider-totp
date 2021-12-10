@@ -21,6 +21,9 @@ data "totp" "my_totp" {
   period    = 30
   digits    = 6
 }
+
+# the TOTP is exposed as passcode attirbute
+# i.e. data.totp.my_totp.passcode
 ```
 
 ## Argument Reference
