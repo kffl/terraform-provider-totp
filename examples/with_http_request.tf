@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     totp = {
-      version = "0.1.1"
+      version = "0.1.2"
       source  = "kffl/totp"
     }
     http = {
@@ -26,7 +26,7 @@ data "totp" "my_totp" {
 }
 
 data "http" "api_call" {
-  url = "https://example.com/path?token=some-token&totp=${data.totp.my_totp.passcode}"
+  url = "https://localhost:8080/path?token=some-token&totp=${data.totp.my_totp.passcode}"
 }
 
 output "response_body" {
