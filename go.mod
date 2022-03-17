@@ -3,7 +3,7 @@ module github.com/kffl/terraform-provider-totp
 go 1.17
 
 require (
-	github.com/hashicorp/terraform-plugin-sdk/v2 v2.11.0
+	github.com/hashicorp/terraform-plugin-sdk/v2 v2.12.0
 	github.com/pquerna/otp v1.3.0
 )
 
